@@ -70,8 +70,8 @@ namespace WindowsFormsToJson
 
         private void GuardarRegistro(string Alumno)
         {
-            string path = @"C:\Users\G1\source\repos\WindowsFormsToJson\WindowsFormsToJson\ListaAlumnos\DatosDeAlumnos.txt";
-
+            string path = @"C: \Users\G1\Documents\GitHub\WFormsJson\WindowsFormsToJson\ListaAlumnos\DatosDeAlumnos.txt";
+            
             File.Create(path).Dispose();
             using (TextWriter fichero = new StreamWriter(path))
             {
