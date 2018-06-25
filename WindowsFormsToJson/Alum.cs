@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsToJson
 {
-    class Alum
+   public class Alum
     {
         //tipo alumno datos a recojer.
         private int id;
